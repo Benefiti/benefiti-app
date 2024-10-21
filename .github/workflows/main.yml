@@ -1,21 +1,21 @@
-# name: 🚀 Deploy website on push
+name: 🚀 Deploy website on push
 
-# on:
-#   push:
-#     branches:
-#       - main
+on:
+  push:
+    branches:
+      - main
 
-# jobs:
-#   web-deploy:
-#     name: 🎉 Deploy
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: 🚚 Get latest code
-#         uses: actions/checkout@v3
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
 
-#       - name: 📂 Sync files
-#         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-#         with:
-#           server: premium81.web-hosting.com
-#           username: benadmin@benefiti.rs
-#           password: C^_a;r!yJ77r
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: premium81.web-hosting.com
+          username: benappad@benefiti.app
+          password: zlmFmws_J3y{
