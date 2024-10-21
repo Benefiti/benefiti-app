@@ -19,3 +19,5 @@ jobs:
           server: premium81.web-hosting.com
           username: benappad@benefiti.app
           password: zlmFmws_J3y{
+          local-dir: ./ 
+          server-dir: / 
