@@ -17,7 +17,5 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: premium81.web-hosting.com
-          username: benappad@benefiti.app
-          password: zlmFmws_J3y{
-          local-dir: ./ 
-          server-dir: / 
+          username: benappadm@benefiti.app
+          password: p[l%LZ~Mf5Ls
