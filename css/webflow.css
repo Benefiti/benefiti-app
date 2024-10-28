@@ -2138,3 +2138,63 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important;
 }
+
+.invisible-item {
+	opacity: 0;
+	pointer-events: none;
+}
+.blog-thumbnail-container {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	border-radius: 8px;
+	transition: box-shadow 0.3s ease;
+}
+
+.blog-thumbnail-container:hover {
+	box-shadow: 0 10px 20px rgba(180, 130, 255, 0.3);
+}
+
+.blog-thumbnail-container img {
+	width: 100%;
+	transition: transform 0.3s ease;
+	position: relative;
+	z-index: 1;
+}
+
+.blog-thumbnail-container:hover::after {
+	opacity: 1;
+}
+
+.blog-thumbnail-container h3 {
+	transition: color 0.3s ease;
+}
+
+.blog-thumbnail-container:hover h3 {
+	color: rgba(180, 130, 255, 1);
+}
+
+.blog-thumbnail-container__block {
+	padding: 15px;
+}
+
+.blog-grid-title {
+  position: relative;
+  display: inline-block;
+  color: #333; /* Text color */
+}
+
+.blog-grid-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px; /* Position the underline slightly below the text */
+  width: 0;
+  height: 2px; /* Thickness of the underline */
+  background-color: #B482FF; /* Purple color for the underline */
+  transition: width 0.4s ease; /* Smooth animation */
+}
+
+.blog-thumbnail-container:hover .blog-grid-title::after {
+  width: 100%; /* Full width on hover */
+}
