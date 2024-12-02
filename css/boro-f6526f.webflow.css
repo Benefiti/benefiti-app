@@ -5035,3 +5035,13 @@ th {
 		top:-26px;
 	}
 }
+
+.mt-40{
+	margin-top: -40px;
+}
+
+@media (max-width: 766px) {
+	.paragraph-small.ondark{
+		margin-top: 10px;
+	}
+}
