@@ -4457,7 +4457,6 @@ h3.blog5-heading {
 	}
 }
 
-
 @media (max-width: 479px) {
 	.nav-bar {
 		position: absolute;
@@ -5031,17 +5030,23 @@ th {
 }
 
 @media (max-width: 550px) {
-	.hive{
-		top:-26px;
+	.hive {
+		top: -26px;
 	}
 }
 
-.mt-40{
+.mt-40 {
 	margin-top: -40px;
 }
 
 @media (max-width: 766px) {
-	.paragraph-small.ondark{
+	.paragraph-small.ondark {
 		margin-top: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.job-notice-form {
+		flex-direction: column;
 	}
 }
